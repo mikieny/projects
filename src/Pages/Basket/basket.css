@@ -1,0 +1,123 @@
+html {
+    display: flex;
+    justify-content: center;
+    height: 1800px;
+
+}
+
+.basket {
+    width: 880px;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+}
+
+.basket-header {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+    gap: 334px;
+}
+
+.basket__title {
+    width: 671px;
+}
+
+.header-left {
+    display: flex;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-left: -245px;
+}
+
+.basket_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 33px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #D58C51;
+    margin-right: 63px;
+}
+
+.basket_btn:hover {
+    transition: 0.8s;
+    background-color: #D58C51;
+    border: none;
+}
+
+.basket_btn img {
+    width: 9.6px;
+    height: 6.75px;
+}
+
+.cards-basket {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.basket-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    position: relative;
+    margin-top: 102px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.basket-footer::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: -550px;
+    background-color: #D58C51;
+    width: 1940px;
+    height: 1px;
+}
+
+.footer__description {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.basket__price {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+}
+
+.basket__button {
+    text-align: center;
+    padding: 12px 0 0 0;
+    text-decoration: none;
+    background-color: #D58C51;
+    width: 200px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #131313;
+}
+
+.btn__logout {
+    text-decoration: none;
+    color: #D58C51;
+    padding: 12px 75px;
+    width: 200px;
+    height: 42px;
+    border: 1px solid #D58C51;
+}

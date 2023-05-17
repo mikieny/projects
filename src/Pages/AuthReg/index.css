@@ -1,0 +1,14 @@
+
+
+
+.authreg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2000px;
+    height: 950px;
+    background: url('../../../public/Mask\ Group.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

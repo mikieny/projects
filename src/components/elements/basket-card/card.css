@@ -1,0 +1,55 @@
+.card-basket {
+    display: flex;
+}
+.card__img{
+    height: 122px;
+    width: 122px;
+    margin-right: 98px;
+}
+
+.card__title {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 262px;
+    max-width: 264px;
+
+}
+
+.card-basket__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #D58C51;
+    border-radius: 30px;
+}
+
+.card-basket__btn:hover {
+    transition: 0.8s;
+    background-color: #D58C51;
+    border: none;
+}
+
+
+.card-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card-basket__price {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+}
+
+.card-right__img {
+    width: 12px;
+    height: 12px;
+}
