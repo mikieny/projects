@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    &__list {
+        display: flex;
+        column-gap: 80px;
+        font-size: 15px;
+        line-height: 22px;
+        a:hover::after {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0px;
+            bottom: -6px;
+            width: 35px;
+            height: 4px;
+            border-radius: 100px;
+            background-color: #C4C4C4;
+        }
+    }
+    &__login {
+        display: flex;
+        column-gap: 66px;
+        font-weight: 500;
+        font-size: 15px;
+        align-items: center;
+        a &btn{
+            color: white;
+        }
+    }
+
+}
+
+a {
+    color: #838B89;
+    position: relative;
+}
