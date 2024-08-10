@@ -1,0 +1,70 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+  
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border: 1px solid #ddd;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+  
+    th {
+      background-color: #00838F;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+  
+      &:hover {
+        background-color: #005662;
+      }
+  
+      &.sortable {
+        display: flex;
+        align-items: center;
+      }
+  
+      &.sortable:after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #fff;
+        margin-left: 5px;
+        transition: transform 0.3s ease;
+      }
+  
+      &.asc:after {
+        transform: rotate(180deg);
+      }
+  
+      &.desc:after {
+        transform: rotate(0deg);
+      }
+    }
+  
+    td {
+      &:hover {
+        background-color: #f1f1f1;
+      }
+    }
+  }
+  
+  .filterButton {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: #005662;
+    }
+  }
+  
+  .details {
+    background-color: #F2F2F2;
+    padding: 16px;
+    border-radius: 4px;
+  }
+  
